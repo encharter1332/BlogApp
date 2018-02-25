@@ -6,11 +6,14 @@ var passport = require("passport");
 var LocalStrategy = require("passport-local");
 var methodOverride = require("method-override");
 var flash = require("connect-flash");
-
+// BASIC SETTING
 app.set("view engine","ejs");
+app.use(express.static(__dirname +"/public"));
+
+
 
 app.get("/", function(req, res){
-    res.render("show");
+    res.render("index");
 })
 
 app.listen(process.env.PORT, process.env.IP, function(){
