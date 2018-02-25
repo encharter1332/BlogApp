@@ -10,7 +10,7 @@ var flash = require("connect-flash");
 app.set("view engine","ejs");
 
 app.get("/", function(req, res){
-    res.render("index");
+    res.render("show");
 })
 
 app.listen(process.env.PORT, process.env.IP, function(){
