@@ -3,5 +3,29 @@
 }
 
 .post{
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.header{
+    font-size : 32px;
+}
+
+.line{
+    border-color:#a0a0a0;
+    margin-top: 0.5em;
+    border-bottom: 1px solid #1f1209;
+	box-shadow: 0 1.5px 1.5px 1px #c1c1c1;
+}
+
+.menu{
+    padding: 0;
+}
+.menu-first{
+    margin-bottom:0;
+}
+.menulink{
+    display: none;
+    background-color: #F5F5F5;
 }
