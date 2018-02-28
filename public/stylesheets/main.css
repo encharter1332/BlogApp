@@ -29,3 +29,14 @@
     display: none;
     background-color: #F5F5F5;
 }
+
+.footer {
+    height: 30px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
