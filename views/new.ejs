@@ -1,0 +1,22 @@
+<% include ./partials/header_new %>
+
+            <div class="well">
+                <h2 class="header">Add new post</h2>
+                <hr class="line">
+                <form method="post">
+                  <textarea id="summernote" name="editordata"></textarea>
+                </form>
+            </div>
+
+
+
+
+
+
+<script>
+    $(document).ready(function() {
+  $('#summernote').summernote();
+});
+</script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js">
+<% include ./partials/footer%>

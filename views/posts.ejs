@@ -1,0 +1,11 @@
+<% include ./partials/header %>
+
+            <% posts.forEach(function(name){ %>
+                
+            <div class="well">
+                <h2 class="header"><%= name.title %></h2>
+                <hr class="line">
+                <p class="post"><%= name.body%> </p>
+            </div>
+            <%             }); %>
+<% include ./partials/footer%>
